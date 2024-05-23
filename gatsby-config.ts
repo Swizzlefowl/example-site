@@ -11,4 +11,9 @@ const config: GatsbyConfig = {
   plugins: [],
 }
 
+
+module.exports = {
+  pathPrefix: "/example-site",
+}
+
 export default config
