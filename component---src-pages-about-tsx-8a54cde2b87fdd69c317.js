@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkexample_site=self.webpackChunkexample_site||[]).push([[49],{2766:function(e,t,l){l.r(t),l.d(t,{Head:function(){return a}});var n=l(7294),u=l(4160);t.default=()=>n.createElement("main",null,n.createElement("h1",null,"About Me"),n.createElement("p",null,"Hi there! I'm the leader of Ken cult."),n.createElement(u.rU,{to:"/"}," Go home"));const a=()=>n.createElement("title",null,"About Me")}}]);
+//# sourceMappingURL=component---src-pages-about-tsx-8a54cde2b87fdd69c317.js.map
