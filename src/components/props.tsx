@@ -5,6 +5,12 @@ export type Prop = {
   profession: string;
 };
 
+export type Image = {
+  title: string;
+  src: string;
+  width: number;
+  height: number;
+}
 const Greetings: React.FC<Prop> = (prop: Prop) => {
     return (
       <div>
@@ -13,6 +19,14 @@ const Greetings: React.FC<Prop> = (prop: Prop) => {
         <p> He is a famous {prop.profession}</p>
       </div>
     );
+};
+
+export const CreateImage: React.FC<Image> = (image: Image) => {
+  return (
+    <div>
+      <img alt={image.title} src={image.src} width={image.width} height={image.height}></img>
+    </div>
+  )
 };
 
 export default Greetings;
