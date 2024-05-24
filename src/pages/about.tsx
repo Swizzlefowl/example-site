@@ -2,9 +2,14 @@ import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
 import { Link } from "gatsby";
 
+const pageStyle = {
+  textAlign: "center" as const,
+  color: "#232129",
+  fontFamily: "-apple-system, Roboto, sans-serif, serif",
+};
 const AboutPage: React.FC<PageProps> = () => {
   return (
-    <main>
+    <main style={pageStyle}>
       <h1>About Me</h1>
       <p>
         Hi there! I'm the leader of Ken cult.
