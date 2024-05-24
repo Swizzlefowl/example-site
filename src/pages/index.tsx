@@ -22,7 +22,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <p>I hope you enjoy your stay</p>
       </div>
       <Greetings name="Melvin" age={40} profession="youtuber"></Greetings>
-      <Greetings name="Womble" age={60} profession="racist"></Greetings>
+      <Greetings name="Womble" age={60} profession="youtuber"></Greetings>
       <div style={divStyles}>
         <Link to="/about"> About me</Link>
       </div>
