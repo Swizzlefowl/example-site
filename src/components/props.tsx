@@ -21,10 +21,11 @@ const Greetings: React.FC<Prop> = (prop: Prop) => {
     );
 };
 
-export const CreateImage: React.FC<Image> = (image: Image) => {
+export const CreateImage: React.FC<React.PropsWithChildren<Image>> = (props: React.PropsWithChildren<Image>) => {
   return (
     <div>
-      <img alt={image.title} src={image.src} width={image.width} height={image.height}></img>
+      {props.children}
+      <img alt={props.title} src={props.src} width={props.width} height={props.height}></img>
     </div>
   )
 };
